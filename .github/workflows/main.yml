@@ -1,0 +1,19 @@
+name: YOLO badge
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Add YOLO badge
+      uses: anuraghazra/github-readme-stats@v1.0.0
+      with:
+        username: towardsnewtech
+        show_icons: true
+        theme: radical
+        hide_border: true
+        custom_title: YOLO
